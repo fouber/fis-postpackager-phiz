@@ -1,0 +1,24 @@
+{
+  "name": "fis-postpackager-phiz",
+  "version": "0.0.2",
+  "description": "a postpackager plugin for phiz to process map.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fouber/fis-postpackager-phiz"
+  },
+  "keywords": [
+    "fis",
+    "postpackager",
+    "package",
+    "phiz"
+  ],
+  "author": "fouber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fouber/fis-postpackager-phiz/issues"
+  }
+}
