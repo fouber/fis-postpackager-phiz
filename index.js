@@ -5,7 +5,7 @@
 
 'use strict';
 
-module.exports = function(ret, settings, conf, opt){ //打包后处理
+module.exports = function(ret){ //打包后处理
     fis.util.map(ret.src, function(subpath, file){
         if(file.isMod && file.rExt === '.php'){
             var clazzFile = ret.src[subpath.replace(/(?=\.php$)/i, '.class')];
